@@ -9,7 +9,7 @@ models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title="Blog API with FastAPI",
-    description="A secure and scalable RESTful API with full CRUD functionality for a blog, backed by Postgres.",
+    description="Sample REST API",
     version="1.0.0",
     docs_url="/docs",
     redoc_url="/redoc",
